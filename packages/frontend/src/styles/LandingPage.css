@@ -1,0 +1,33 @@
+/* LandingPage.css */
+.landing-page {
+    background: linear-gradient(135deg, #72c6ef 0%, #82e8e2 100%); /* Gradient background */
+    color: #333;
+    text-align: center;
+    padding: 100px 20px;
+    min-height: 100vh; /* Full height */
+}
+
+.landing-page h1 {
+    font-size: 3em;
+    margin: 0;
+    font-weight: 700;
+}
+
+.landing-page p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.landing-page button {
+    background-color: #4A90E2; /* Button color */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.landing-page button:hover {
+    background-color: #357ABD; /* Darker blue on hover */
+}

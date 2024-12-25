@@ -1,0 +1,86 @@
+/* CartPage.css */
+.cart-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cart-page h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-table th, 
+.cart-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.cart-item-image {
+    width: 50px; /* Adjust image size */
+    height: 50px; /* Adjust image size */
+    object-fit: cover; /* Ensure image maintains aspect ratio */
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-control button {
+    background-color: #f4f4f4;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.quantity-control span {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+}
+
+.quantity-control button:hover {
+    background-color: #ddd;
+}
+
+.total-row {
+    font-weight: bold;
+}
+
+.total-row td {
+    padding: 15px 10px;
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+.total-row td:first-child {
+    text-align: left;
+}
+
+.cart-page button {
+    background-color: #ff4d4f;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-page button:hover {
+    background-color: #ff6666;
+}

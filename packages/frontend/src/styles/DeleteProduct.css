@@ -1,0 +1,20 @@
+.delete-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #e74c3c; /* Red color for delete */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 15px;
+}
+
+.delete-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+.delete-button:disabled {
+    background-color: #95a5a6; /* Grey color when disabled */
+    cursor: not-allowed; /* Change cursor to indicate it's not clickable */
+}

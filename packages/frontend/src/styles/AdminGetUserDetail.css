@@ -1,0 +1,53 @@
+/* AdminGetUserDetail.css */
+
+.user-details-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.user-details-container h2 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-details-container p {
+    font-size: 16px;
+    color: #34495e;
+    margin: 8px 0;
+}
+
+.user-details-container .actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-details-container button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: rgb(46, 31, 187);;
+    transition: background-color 0.3s ease;
+}
+
+
+.user-details-container button:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+.user-details-container .delete-button {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.user-details-container .delete-button:hover {
+    background-color: #c0392b;
+}

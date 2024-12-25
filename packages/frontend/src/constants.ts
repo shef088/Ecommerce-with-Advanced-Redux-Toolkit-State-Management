@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://reimagined-guide-q6x74vpgrr4f99q-4040.app.github.dev'

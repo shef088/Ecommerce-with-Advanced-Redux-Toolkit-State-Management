@@ -1,0 +1,113 @@
+/* Header.css */
+.header {
+    background-color: #4A90E2;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.auth-links {
+    display: flex;
+    align-items: center;
+}
+
+.cart-link {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.cart-icon {
+    font-size: 20px;
+}
+.cart-count-cont{
+    background-color: orange;
+    border-radius: 50%;
+    text-align: center;
+}
+.cart-count {
+    /* margin: 5px; */
+    font-weight: bold;
+    color: white;
+    padding: 3px;
+   
+     
+}
+
+/* Avatar container and dropdown */
+.avatar-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.avatar-icon {
+    font-size: 30px;
+    color: white;
+}
+
+/* Dropdown styles */
+.dropdown {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+    z-index: 1000;
+    min-width: 150px;
+}
+
+/* Dropdown content */
+.dropdown span {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.dropdown button {
+    background-color: #4A90E2;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropdown button:hover {
+    background-color: #357ABD;
+}
+
+.navbar a.active {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #FFD700; /* Change to any color you prefer for the active link */
+}
